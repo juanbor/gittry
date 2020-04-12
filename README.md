@@ -7,6 +7,7 @@ New Local Branch:
 
 Delete Local Branch:
 > git checkout master
+
 > git branch -D branch\_name
 
 Push New Branch:
