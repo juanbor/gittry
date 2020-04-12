@@ -5,10 +5,10 @@ Branch:
 
 
 New Branch:
-\> git checkout -b "branch\_name"
+> git checkout -b "branch\_name"
 
 Delete Local Branch:
-\> git checkout master
-\> git branch -D branch\_name
+> git checkout master
+> git branch -D branch\_name
 
 
