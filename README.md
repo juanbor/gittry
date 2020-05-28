@@ -15,3 +15,9 @@ Push New Branch:
 
 Delete Remote Branch:
 > git push <remote_branch> --delete <branch_name>
+
+Dejar de trackear archivos ya trackeados por git (.gitignore no los toma cuando sucede esto):
+> git update-index --assume-unchanged ruta_al_archivo/nombre_del_archivo
+
+Volver a trackear archivos destrackeados
+> git update-index --no-assume-unchanged ruta_al_archivo/nombre_del_archivo
