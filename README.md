@@ -21,3 +21,10 @@ Dejar de trackear archivos ya trackeados por git (.gitignore no los toma cuando 
 
 Volver a trackear archivos destrackeados
 > git update-index --no-assume-unchanged ruta_al_archivo/nombre_del_archivo
+
+Deshacer cambios locales NO staged
+> git checkout -- <file_name>
+
+Deshcaer cambios locales staged
+> git reset HEAD <file_name>
+> git checkout -- <file_name>
