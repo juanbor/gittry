@@ -27,4 +27,5 @@ Deshacer cambios locales NO staged
 
 Deshcaer cambios locales staged
 > git reset HEAD <file_name>
+
 > git checkout -- <file_name>
